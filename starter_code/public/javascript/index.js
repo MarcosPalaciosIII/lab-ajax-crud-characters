@@ -15,9 +15,9 @@ $(document).ready( () => {
 
 
   $('#delete-one').on('click', (e) => {
-    charactersAPI.deleteOneRegister();
 
     const idnumber = $(`#character-id-delete`).val();
+    charactersAPI.deleteOneRegister(idnumber);
 
   });
 
