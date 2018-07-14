@@ -19,11 +19,11 @@ class APIHandler {
         $(".characters-container").append(
           `
           <div class="character-info">
-            <div class="name"> ${oneCharacter.name} </div>
-            <div class="occupation"> ${oneCharacter.occupation} </div>
-            <div class="debt"> ${oneCharacter.debt} </div>
-            <div class="weapon"> ${oneCharacter.weapon} </div>
-            <div class="id"> ${oneCharacter.id} </div>
+            <div class="name"> Name: ${oneCharacter.name} </div>
+            <div class="occupation">Occupation: ${oneCharacter.occupation} </div>
+            <div class="debt">Debt: ${oneCharacter.debt} </div>
+            <div class="weapon">Weapon: ${oneCharacter.weapon} </div>
+            <div class="id">ID: ${oneCharacter.id} </div>
           </div>
           `);
       });
